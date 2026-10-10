@@ -32,7 +32,7 @@ The plugin runs a local `stdio` MCP server for local Codex clients. It is not a 
 ## 🚀 Install from GitHub
 
 ```bash
-codex plugin marketplace add https://github.com/97ming/codex-task-queue-notes.git
+codex plugin marketplace add https://github.com/wuxianpower/codex-task-queue-notes.git
 codex plugin add codex-task-queue-spike@task-queue-spike-local
 ```
 
