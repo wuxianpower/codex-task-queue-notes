@@ -32,7 +32,7 @@
 ## 🚀 从 GitHub 安装
 
 ```bash
-codex plugin marketplace add https://github.com/97ming/codex-task-queue-notes.git
+codex plugin marketplace add https://github.com/wuxianpower/codex-task-queue-notes.git
 codex plugin add codex-task-queue-spike@task-queue-spike-local
 ```
 
