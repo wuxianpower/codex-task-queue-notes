@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "codex-task-queue-spike",
+  "version": "0.3.9",
+  "description": "A local sticky-note task queue for Codex with numbered notes, draggable ordering, and one-at-a-time task handoff.",
+  "author": {
+    "name": "97ming"
+  },
+  "repository": "https://github.com/97ming/codex-task-queue-notes",
+  "homepage": "https://github.com/97ming/codex-task-queue-notes",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Task Queue Notes",
+        "shortDescription": "Numbered notes, drag to sort",
+        "longDescription": "Manage numbered local task notes with a single content field, reorder notes with the left handle, and send one task at a time to the current Codex conversation.",
+        "developerName": "97ming",
+        "category": "Productivity",
+        "capabilities": ["Interactive"],
+        "defaultPrompt": "Open the task notes board."
+      }
+    }
+  }
+}
