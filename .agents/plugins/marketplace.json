@@ -1,0 +1,20 @@
+{
+  "name": "task-queue-spike-local",
+  "interface": {
+    "displayName": "Task Queue Notes (Local)"
+  },
+  "plugins": [
+    {
+      "name": "codex-task-queue-spike",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
